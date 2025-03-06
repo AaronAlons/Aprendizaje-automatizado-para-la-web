@@ -1,0 +1,15 @@
+digraph {
+	A [label="Presupuesto < $20,000?"]
+	B [label="No compra"]
+	C [label="Presupuesto > $30,000?"]
+	D [label=Compra]
+	E [label="Tipo de coche = SUV?"]
+	F [label=Compra]
+	G [label="No compra"]
+	A -> B [label="Sí"]
+	A -> C [label=No]
+	C -> D [label="Sí"]
+	C -> E [label=No]
+	E -> F [label="Sí"]
+	E -> G [label=No]
+}
